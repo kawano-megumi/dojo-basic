@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 18px;
+  }
+  
+  p {
+	margin: 0;
+  }
+  
+  /* 繝倥ャ繝繝ｼ */
+  .header-inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px auto;
+	max-width: 960px;
+  }
+  
+  .header-inner a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+  }
+  
+  /* MyProfile縺ｮ隕句�縺鈴Κ蛻� */
+  h1 {
+	margin: 0 0 0 20px;
+	font-size: 34px;
+	border: 1px solid black;
+	padding: 0px 20px;
+  }
+  
+  .home {
+	text-decoration: none;
+  }
+  
+  /* 繝翫ン繧ｲ繝ｼ繧ｷ繝ｧ繝ｳ繝｡繝九Η繝ｼ */
+  nav .menu {
+	display: flex;
+	padding-left: 0;
+  }
+  
+  nav li {
+	margin: 0 20px;
+	list-style: none;
+  }
+  
+  nav a {
+	font-size: 34px;
+  }
+  
+  h2 {
+	margin: 0;
+	padding: 60px 0 40px;
+	text-align: center;
+	font-size: 34px;
+  }
+  
+  p,
+  li {
+	font-size: 18px;
+  }
+  
+  /* 逕ｻ蜒� */
+  img {
+	margin: 0 auto;
+	width: 100%;
+  }
+  
+  /* About */
+  .about-inner {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 20px auto;
+	max-width: 960px;
+  }
+  
+  /* 蜷榊燕 */
+  .name {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  /* 荳ｸ縺丞�繧雁叙繧狗判蜒� */
+  .circle {
+	border-radius: 50%;
+	width: 280px;
+	height: 280px;
+  }
+  
+  /* 繝励Ο繝輔ぅ繝ｼ繝ｫ縺ｮ隱ｬ譏朱Κ蛻� */
+  .content {
+	margin: 0 auto;
+	padding: 0 20px;
+  }
+  
+  /* Works */
+  .works-inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 960px;
+  }
+  
+  /* Works縺ｮ逕ｻ蜒上→隱ｬ譏朱Κ蛻� */
+  .item {
+	margin: 0 10px;
+	padding-bottom: 60px;
+	width: 25%;
+  }
+  
+  /* 繝輔ャ繧ｿ繝ｼ */
+  footer p {
+	text-align: center;
+	padding-bottom: 20px;
+  }
+  
+  /* 讓ｪ蟷�′767px縺ｾ縺ｧ縺ｮ蝣ｴ蜷� */
+  @media (max-width: 767px) {
+	h1 {
+	  font-size: 28px;
+	}
+	
+	h2 {
+	  padding: 30px 0 20px;
+	  font-size: 28px;
+	}
+  
+	nav li {
+	  margin: 0 10px;
+	}
+  
+	nav a {
+	  font-size: 21px;
+	}
+  
+	.item {
+	  width: 100%;
+	  text-align: center;
+	  padding-bottom: 40px;
+	}
+  }
