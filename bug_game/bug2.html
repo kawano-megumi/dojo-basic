@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Bug 2 - ボタンが動かない！</title>
+</head>
+<body>
+  <h1>カウントアップアプリ</h1>
+  <p>ボタンを押すと数字が増えるはずです。</p>
+  <p>現在のカウント: <span id="count">0</span></p>
+  <button id="btn">カウントアップ</button>
+
+  <script>
+    let count = 0;
+    document.getElementByID("btn").addEventListener("click", () => {
+      count++;
+      document.getElementById("count").textContent = count;
+    });
+  </script>
+</body>
+</html>
